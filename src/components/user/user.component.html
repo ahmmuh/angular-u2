@@ -1,0 +1,14 @@
+<div class="singel-user">
+  <div class="user-info" *ngIf="user">
+    <p>Name: {{ user.name }}</p>
+    <p>username: {{ user.username }}</p>
+    <p>City: {{ user.address.street }}</p>
+    <!-- <p>Street: {{ user.address.city }}</p> -->
+    <p>zipcode: {{ user.address.zipcode }}</p>
+  </div>
+  <div class="back-container">
+    <button type="button" [routerLink]="['/dashboard']">Back</button>
+  </div>
+</div>
+
+<!-- address, name, street, city, username, zipcode -->

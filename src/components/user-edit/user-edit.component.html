@@ -1,0 +1,21 @@
+<div class="addForm" id="form-container">
+  <form>
+    <div class="form-group">
+      <input
+        type="text"
+        name="user"
+        id="user"
+        placeholder="add new user..."
+        [(ngModel)]="user"
+      />
+    </div>
+    <div class="btns">
+      <button type="submit" (click)="addUser($event)" class="addBtn">
+        Add
+      </button>
+      <button type="button" (click)="removeUser($event)" class="delBtn">
+        Delete
+      </button>
+    </div>
+  </form>
+</div>

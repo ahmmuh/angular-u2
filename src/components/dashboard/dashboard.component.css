@@ -1,0 +1,11 @@
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* .users {
+  width: 20%;
+} */

@@ -1,0 +1,31 @@
+.singel-user {
+  width: 50%;
+  background-color: rgba(142, 148, 142, 0.801);
+  margin: 10px auto;
+  padding: 10px;
+}
+.user-info p {
+  color: #fff;
+  font-size: 20px;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+}
+.singel-user .back-container {
+  margin: 10px 0;
+}
+.back-container button {
+  background-color: #222;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.back-container button:hover {
+  background-color: rgb(63, 133, 133);
+}

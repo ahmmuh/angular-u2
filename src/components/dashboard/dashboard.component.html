@@ -1,0 +1,13 @@
+<div *ngIf="!checkIfUserLoggedIn()">
+  <h2>Vänligen logga in för att se innehåll</h2>
+</div>
+
+<div *ngIf="checkIfUserLoggedIn()">
+  <div class="dashboard">
+    <app-user-list [users]="userList"></app-user-list>
+    <app-user-edit
+      (addUser)="addUser($event)"
+      (removeUser)="removeUser()"
+    ></app-user-edit>
+  </div>
+</div>

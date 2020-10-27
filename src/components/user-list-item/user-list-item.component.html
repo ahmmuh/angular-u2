@@ -1,0 +1,8 @@
+<li
+  [ngClass]="textColor ? 'redColor' : 'greenColor'"
+  [routerLink]="['/user', user.id]"
+>
+  <a>
+    {{ user.name }}
+  </a>
+</li>
